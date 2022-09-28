@@ -1050,3 +1050,6 @@ h4 {
   font-style: italic;
   font-size: 1.3em;
 }
+.black {
+  color: #000 !important;
+}

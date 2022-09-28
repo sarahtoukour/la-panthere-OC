@@ -1,3 +1,15 @@
 {
-  "liveServer.settings.port": 5502
+	"liveServer.settings.port": 5502,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"prettier.bracketSameLine": true,
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.useEditorConfig": false,
+	"prettier.singleAttributePerLine": false,
+	"prettier.quoteProps": "as-needed",
+	"prettier.proseWrap": "preserve",
+	"prettier.htmlWhitespaceSensitivity": "css",
+	"prettier.useTabs": true,
+	"prettier.embeddedLanguageFormatting": "off"
 }

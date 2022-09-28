@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img_converted/texture-paper.webp");
-    background-size: 280px 280px;
+  background: url("img_converted/texture-paper.webp");
+  background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -755,7 +755,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 40px 40px 40px 40px;
 }
 
@@ -769,11 +769,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #cd4b0e;
+  background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-  background-color: #CD4B0E;
+  background-color: #f3976c;
 }
 
 .tc-white {
@@ -781,8 +781,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #cd4b0e;
-  color: #ffffff !important;
+  background: #f3976c;
+  color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -809,10 +809,6 @@ h4 {
 .icon-dark-slate-blue {
   color: #364577 !important;
   border-color: #364577 !important;
-}
-
-.bg-dots-bg {
-  background-image: url("img_converted/");
 }
 
 .bg-banniere {
@@ -1024,6 +1020,17 @@ h4 {
     width: 180px;
     height: 320px;
   }
+  /* rajout */
+  .title-h2-responsive {
+    max-width: 42rem;
+    margin: auto;
+  }
+  .img-responsive {
+    margin: auto;
+  }
+  .icon-md {
+    margin-bottom: 12px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1038,7 +1045,7 @@ h4 {
     text-align: center;
   }
 }
-
+/* rajout */
 .citation {
   font-style: italic;
   font-size: 1.3em;

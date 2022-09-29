@@ -1031,6 +1031,16 @@ h4 {
   .icon-md {
     margin-bottom: 12px;
   }
+  .mg-md {
+    margin-bottom: 5px;
+  }
+  a[data-lightbox] {
+    margin-top: 20px;
+  }
+  .portfolio-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 @media (max-width: 400px) {

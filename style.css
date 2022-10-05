@@ -285,6 +285,10 @@ a:hover {
 
 #bloc-1-hero h1 {
   font-size: 32px;
+  background-color: #3F3F3F;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: #F69772!important;
 }
 
 .navbar {
@@ -660,8 +664,14 @@ a {
   max-width: 1000px;
 }
 
-.hero-bloc-text {
-  font-size: 38px;
+#bloc-5-cta h2 {
+  font-size: 22px;
+    background-color: #3F3F3F;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #F69772!important;
+    width: 450px;
+    margin: 0 auto;
 }
 
 .hero-bloc-text-sub {
@@ -693,7 +703,7 @@ p {
 }
 
 .cta-hero {
-  margin-top: 22px;
+  margin-top: 55px;
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
@@ -866,10 +876,6 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  /* .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  } */
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -878,8 +884,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
   }
 }
 
@@ -1041,8 +1045,21 @@ h4 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+  .form-group{
+    padding-left: 10px;
+  }
+  
 }
-
+@media (max-width: 470px) {
+  #bloc-5-cta h2 {
+    width: 100%;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+ 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
@@ -1063,3 +1080,9 @@ h4 {
 .black {
   color: #000 !important;
 }
+.bg-contact {
+  background: #f3976c !important;
+}
+
+
+

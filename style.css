@@ -285,7 +285,6 @@ a:hover {
 
 #bloc-1-hero h1 {
   font-size: 32px;
-  background-color: #3F3F3F;
   padding: 10px 0;
   border-radius: 5px;
   color: #F69772!important;
@@ -666,12 +665,11 @@ a {
 
 #bloc-5-cta h2 {
   font-size: 22px;
-    background-color: #3F3F3F;
-    padding: 10px 0;
-    border-radius: 5px;
-    color: #F69772!important;
-    width: 450px;
-    margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: #F69772!important;
+  width: 450px;
+  margin: 0 auto;
 }
 
 .hero-bloc-text-sub {

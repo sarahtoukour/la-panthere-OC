@@ -13,10 +13,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
 
 	<title>La Panthère</title>
 
@@ -27,7 +23,7 @@
 
 <body>
 	<!-- Principal conteneur -->
-	<div class="page-container">
+	<main class="page-container">
 		<!-- bloc-0 -->
 		<header class="bloc bgc-white l-bloc" id="bloc-0">
 			<div class="container bloc-sm">
@@ -46,7 +42,7 @@
 							<span class="icon-bar"></span>
 						</button>
 					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-label="menu de navigation" role="navigation">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
@@ -63,16 +59,15 @@
 
 		<!-- bloc-1-presentation -->
 		
-	<main>
-		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 			id="bloc-1-hero">
 			<div class="container bloc-lg">
-				<div class="row tight-width-whitespace">
+				<div class="row tight-width-whitespace black-background">
 					<div class="col-sm-12">
-						<img src="img_converted/logo.webp" class="center-block image-resize-mode" width="100"
-							alt="logo de l'agence de web design la Panthère située à Lyon">
+						<img src="img_converted/logo.webp" class="center-block image-resize-mode" aria-hidden="true" width="100"
+							alt="">
 						<h1 class="text-center">
-							Agence La Panthère
+							La Panthère - Agence web design
 						</h1>
 						<div class="text-center">
 							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
@@ -83,11 +78,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-1-presentation END -->
 
 		<!-- bloc-2-services -->
-		<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+		<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 			<div class="container bloc-md">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -100,7 +95,7 @@
 				<div class="row voffset-lg med-width-whitespace">
 					<div class="col-sm-4">
 						<div class="text-center">
-							<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+							<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-hidden="true"></span>
 						</div>
 						<h3 class="mg-md text-center">Web design</h3>
 						<p class="text-center">
@@ -111,7 +106,7 @@
 					</div>
 					<div class="col-sm-4">
 						<div class="text-center">
-							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-hidden="true"></span>
 						</div>
 						<h3 class="mg-md text-center">Stratégie</h3>
 						<p class="text-center">
@@ -123,7 +118,7 @@
 					</div>
 					<div class="col-sm-4">
 						<div class="text-center">
-							<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+							<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-hidden="true"></span>
 						</div>
 						<h3 class="mg-md text-center">Illustrations</h3>
 						<p class="text-center">
@@ -145,11 +140,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-2-services END -->
 
 		<!-- bloc-3-what-i-do -->
-		<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
+		<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
 			id="bloc-3-what-i-do">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
@@ -178,11 +173,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-3-what-i-do END -->
 
 		<!-- bloc-4-portfolio -->
-		<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -194,10 +189,10 @@
 					</div>
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
+					<article class="col-sm-6">
 						<a href="#" data-lightbox="img_converted/1.webp" data-gallery-id="gallery-1"
 							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-							<img src="img_converted/1.webp" alt="image refonte site web journal"
+							<img src="img_converted/1.webp" alt="Pile de journaux"
 								class="img-responsive portfolio-thumb">
 						</a>
 						<h3 class="mg-md text-center">
@@ -207,12 +202,12 @@
 							Nous avons créé une nouvelle identité visuelle pour un journal
 							lyonnais.
 						</p>
-					</div>
-					<div class="col-sm-6">
+					</article>
+					<article class="col-sm-6">
 						<a href="#" data-lightbox="img_converted/2.webp" data-gallery-id="gallery-1"
 							data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
 							<img src="img_converted/2.webp" class="img-responsive portfolio-thumb"
-								alt="image Création d'un site web pour photographes">
+								alt="Une photographe et son appareil photo">
 						</a>
 						<h3 class="mg-md text-center">
 							Création d'un site web pour photographes
@@ -221,14 +216,14 @@
 							Nous avons conçu la plateforme idéale pour laisser place aux
 							clichés des photographes.
 						</p>
-					</div>
+					</article>
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
-					<div class="col-sm-6">
+					<article class="col-sm-6">
 						<a href="#" data-lightbox="img_converted/3.webp" data-gallery-id="gallery-1"
 							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
 							<img src="img_converted/3.webp" class="img-responsive portfolio-thumb"
-								alt="image Création d'un site web pour voyageur">
+								alt="Matériel photo">
 						</a>
 						<h3 class="mg-md text-center">
 							Création d'un site internet pour un voyageur
@@ -237,12 +232,12 @@
 							Nous avons élaboré un site internet et des illustrations pour
 							sublimer les vidéos et les articles de ce voyageur.
 						</p>
-					</div>
-					<div class="col-sm-6">
+					</article>
+					<article class="col-sm-6">
 						<a href="#" data-lightbox="img_converted/4.webp" data-gallery-id="gallery-1"
 							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
 							<img src="img_converted/4.webp" class="img-responsive portfolio-thumb"
-								alt="image Création d'un site web pour agence de mariage">
+								alt="Bureau sur lequel est posé un ordinateur et du matériel créatifs comme des ciseaux et rubans">
 						</a>
 						<h3 class="mg-md text-center">
 							Conception d'un site pour une agence de mariage
@@ -252,17 +247,17 @@
 							internet permettant la présentation détaillée de leurs
 							prestations.
 						</p>
-					</div>
+					</article>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-4-portfolio END -->
 
 		<!-- bloc-5-cta -->
-		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
 			id="bloc-5-cta">
 			<div class="container bloc-lg">
-				<div class="row">
+				<div class="row tight-width-whitespace black-background">
 					<h2 class="mg-md text-center">
 						Prêt pour redonner vie à votre projet ?
 						<br>
@@ -275,8 +270,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</main>
+		</section>
 		<!-- bloc-5-cta END -->
 
 		<!-- ScrollToTop Button -->
@@ -327,8 +321,13 @@
 			</div>
 		</footer>
 		<!-- Footer - bloc-8 END -->
-	</div>
+	</main>
+
 	<!-- Principal conteneur END -->
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
 </body>
 
 </html>
